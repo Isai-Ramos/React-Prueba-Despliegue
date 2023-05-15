@@ -11,7 +11,7 @@ function TaskList() {
   }
 
   return (
-    <div className="grid grid-cols-4 gap-2">
+    <div className="flex flex-wrap gap-2 justify-center">
       {task.map((task) => (
         <TaskCard key={task.id} task={task} />
       ))}
