@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:'/React-Prueba-Despliegue/'
+  base:'https://Isai-Ramos.github.io/React-Prueba-Despliegue/'
 })
